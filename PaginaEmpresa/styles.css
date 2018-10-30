@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Niramit");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header-container {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	position: fixed;
+
+}
+
+.header {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	background-color: #485178;
+	//justify-content: space-around;
+	align-items: center;
+
+
+	border-bottom: 5px solid #000;
+	/*position: -webkit-sticky;  // required for Safari
+    position: sticky;
+    top: 0; // required as well.*/
+}
+
+.logo {
+	width: 200px;
+	height: 50px;
+	background-color: #c8fc13;
+}
+
+.letras {
+	float: right;
+	width: 600px;
+	height: 50px;
+	//background-color: #c8fc13;
+	display: flex;
+	margin: 50px;
+}
+
+.letras-item {
+	width: 23%;
+	height: 50px;
+	background-color: #fcb213;
+	float: left;
+	margin: 5px 1.15%;
+}
+
+.vinculo-menu {
+	float: left;
+}
+
+.inicio-container {
+	display: flex;
+}
+
+.inicio {
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+  color: white;
+  height: 800px;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-size: 100% 800px;
+  background-repeat: no-repeat;
+  background-image: url("images/inicioImag.jpg");
+}
+.inicioItem {
+  text-align: center;
+  display: flex;
+}
+
+  #servicio1::before {
+    display: block;
+    content: " ";
+    margin-top: -150px;
+    height: 150px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+
+
+.servicios-container {
+  display: flex;
+  
+}
+
+.servicio {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  background-color: #9ea0b4;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.empresa-container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.empresa {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	background-image: url(assets/images/maxresdefault.jpg);
+	justify-content: center;
+	overflow: hidden;
+	flex-wrap: wrap;
+
+	//flex-direction: row;
+}
+.descripcion3{
+	font-family: 'Niramit', sans-serif;
+  font-size: 100%;
+	//flex-direction: column;
+}
+.nosotros{
+	display: flex;
+	justify-content:  flex-start;
+	//align-self: flex-end;
+	float: left;
+	//overflow: hidden;
+	height: auto;
+	width: auto;
+	//background-color: black;
+}
+.imagenes3{
+	display: flex;
+	justify-content:  flex-start;
+	//flex-wrap: wrap;
+	float: right;
+	flex-direction: row-reverse;
+	border: 5px solid #000;
+	margin: 0 10;
+	//background-color: black;
+
+}
+
+.titulo{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: 0 25px;
+  //background-color: white;
+  justify-content: flex-start;
+  font-weight: -100;
+  font-family: 'Comfortaa', cursive;
+  font-size: 350%;
+  flex-wrap: wrap;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    white-space: nowrap;
+    text-shadow: -2px 1px rgba(black, 0.1);
+    color: darken(#2A2C39, 10);
+    line-height: 1.45;
+  text-rendering: optimizeLegibility;
+
+
+}
+.contacto-container {
+	display: flex;
+}
+
+.contacto {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	background-color: #75aff8;
+}
+
+.contacto-left {
+  height: 100%;
+  width: 35%;
+  background-color: #ccccff;
+  border-right: 10px solid #9494b8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-container-f {
+  //height: 100%;
+  width: 100%;
+  //border: 1px solid #000;
+}
+.imagen-logo-f {
+  //float: left;
+  display: block;
+  height: 20%;
+}
+
+.texto-container-f {
+  height: 50%;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+}
+
+.texto-texto {
+  height: 90%;
+  width: 90%;
+
+  //border: 1px solid #000;
+}
+
+.contacto-right {
+  height: 100%;
+  width: 65%;
+  //border: 1px solid #fff;
+  background-color: #524985;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-left: 10px solid #45405d;
+}
+
+.contacto-right-aux {
+  height: 90%;
+  width: 85%;
+  border: 1px solid #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;   
+}
+
+.seccion-contacto {
+  height: 15%;
+  width: 85%;
+  border: 1px solid #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.seccion-contacto-2 {
+  height: 50%;
+  width: 85%;
+  display: flex;
+  border: 1px solid #fff;
+  flex-wrap: wrap;
+}
+
+.letras-contacto {
+  height: 25%;
+  width: 100%;
+  background-color: #b3abda;
+
+}
+
+.formulario-relleno-c {
+  height: 75%;
+  width: 100%;
+  background-color: #fff;
+}
+.formulario-relleno-g {
+  height: 75%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.imagen-logo {
+	//float: left;
+	display: block;
+	height: 90%;
+}
+
+.button:link,                 /* Change this */
+.button:visited {             /* Change this */
+  display: block;             /* Add this */
+  text-decoration: none;      /* Add this */
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 100%;
+  height: 50px;
+  margin: 15px auto;
+  margin-top: 0px;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+
+a:visited:hover {
+  color: white;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 10px;
+}
+
+.gallery {
+    width: 100%;
+    height:40%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+@media screen and ( max-width: 500px ) {
+    ul { 
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+.gallery ul li img { 
+  width: 90%; 
+  height: 70%; 
+}
+
+.gallery ul li { 
+  text-align: center;
+}
+.projects h2{ 
+  margin: 0px 30px;
+}
+
+.gallery ul li img:hover {filter: opacity(.5);}
+
+hr {
+  height: 1px;
+  width: 95%;
+  margin: 0 30px;
+  background-color: #4b4c4f;
+}
