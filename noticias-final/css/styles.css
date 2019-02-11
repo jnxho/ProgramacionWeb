@@ -1,0 +1,80 @@
+.titulo{
+	text-align:center;
+	background-color: blue;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 100px;
+
+}
+.menu-bar{
+	background-color: lightgray;
+	display: flex;
+	height: 40px;
+	align-items: center;
+	justify-content: space-around;
+}
+.menu-item{
+	color: gray;
+}
+.regreso{
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 0px;
+}
+.formulario{
+	display: flex;
+	justify-content: space-around;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.personas{
+	width: 80%;
+}
+td{
+	background-color: lightgray;
+
+}
+th{
+	background-color: gray;
+	text-align: left;
+}
+.letreroP{
+	text-align: center;
+}
+.busqueda{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.contactos{
+  display: flex;
+  width: 30%;
+  height: 85%;
+}
+.section-title {
+text-align:center;
+margin-top: 1em;
+background-color: #ecf0f1;
+padding: .5em 0;
+border-radius: .3em;
+}
+.service {
+border-radius: .3em;
+background-color: #34495e;
+text-align: center;
+padding: 3em 2em 1em 2em;
+color: white;
+}
+.service .glyphicon {
+font-size: 5em;
+}
+.index-news{
+	width: 165px;
+	height: 180px;
+}
+
+.news-cont{
+	margin-bottom:10px
+}
